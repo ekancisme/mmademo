@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react';
-import { router } from 'expo-router';
-import { Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Constants from 'expo-constants';
+import { router } from 'expo-router';
+import { useEffect, useState } from 'react';
+import { Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { useAuth } from '@/contexts/AuthContext';
 
