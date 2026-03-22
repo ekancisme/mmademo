@@ -32,7 +32,7 @@ const upload = multer({ storage });
 app.use('/uploads', express.static(uploadDir));
 
 // Kết nối MongoDB local
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/sportmate';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://36.50.54.246:27017/sportmate';
 
 mongoose
   .connect(MONGODB_URI)
